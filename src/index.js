@@ -1,12 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+//import { CopyCat } from './components/CopyCat';
+import { CopyCatContainer } from './containers/CopyCatContainer';
 import './index.css';
-import App from './App';
+//import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    {/* <CopyCat /> */}
+    <CopyCatContainer />
   </React.StrictMode>,
   document.getElementById('root')
 );
